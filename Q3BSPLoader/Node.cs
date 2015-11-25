@@ -4,10 +4,10 @@ namespace Bsp
 {
     public class Node
     {
-		int plane;
-		int[] children = new int[2];
-		int[] min = new int[3];
-		int[] max = new int[3];
+        int plane;
+        int[] children = new int[2];
+        int[] min = new int[3];
+        int[] max = new int[3];
 
         internal void Load(BinaryReader reader)
         {

@@ -5,7 +5,7 @@ namespace Bsp
     public class Effect
     {
         string name;
-		int brush;
+        int brush;
 
         public Effect(BinaryReader reader)
         {

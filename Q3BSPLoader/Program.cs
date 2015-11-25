@@ -11,7 +11,7 @@ namespace Bsp
     {
         static void Main(string[] args)
         {
-            var bsp = new Bsp("../Maps/overkill.bsp");
+            var bsp = new Bsp("../Maps/Test.bsp");
         }
     }
 }

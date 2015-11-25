@@ -6,21 +6,21 @@ namespace Bsp
 {
     public class Bsp
     {
-		Header header;
-		string entities;
-		Texture[] textures;
-		Plane[] planes;
-		Node[] nodes;
+        Header header;
+        string entities;
+        Texture[] textures;
+        Plane[] planes;
+        Node[] nodes;
         Leaf[] leaves;
         LeafFace[] leafFaces;
         LeafBrush[] leafBrushes;
-		Model[] models;
-		Brush[] brushes;
-		BrushSide[] brushSides;
-		Vertex[] vertices;
-		MeshVertex[] meshVertices;
-		Effect[] effects;
-		Face[] faces;
+        Model[] models;
+        Brush[] brushes;
+        BrushSide[] brushSides;
+        Vertex[] vertices;
+        MeshVertex[] meshVertices;
+        Effect[] effects;
+        Face[] faces;
 
         public Bsp(string filename)
         {
@@ -141,7 +141,9 @@ namespace Bsp
             #endregion
 
             #region Log
-			Console.WriteLine("Loaded {0:d} textures, {1:d} planes, {2:d} nodes, {3:d} leaves, {4:d} leaf faces, {5:d} leaf brushes, {6:d} models, {7:d} brushes, {8:d} brush sides, {9:d} vertices, {10:d} mesh vertices, {11:d} effects, and {12:d} faces from {13:s} in {14:s}ms.",
+            Console.WriteLine("Loaded {0:s} in {1:s}ms\n * {2:d} textures\n * {3:d} planes\n * {4:d} nodes\n * {5:d} leaves\n * {6:d} leaf faces\n * {7:d} leaf brushes\n * {8:d} models\n * {9:d} brushes\n * {10:d} brush sides\n * {11:d} vertices\n * {12:d} mesh vertices\n * {13:d} effects\n * {14:d} faces",
+                filename,
+                stopwatch.Elapsed.TotalMilliseconds.ToString(),
                 textures.Length,
                 planes.Length,
                 nodes.Length,
@@ -154,9 +156,7 @@ namespace Bsp
                 vertices.Length,
                 meshVertices.Length,
                 effects.Length,
-                faces.Length,
-				filename,
-                stopwatch.Elapsed.TotalMilliseconds.ToString()
+                faces.Length
             );
             #endregion
         }

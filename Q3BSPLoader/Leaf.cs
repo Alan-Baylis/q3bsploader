@@ -4,14 +4,14 @@ namespace Bsp
 {
     public class Leaf
     {
-		int cluster;
-		int area;
-		int[] min = new int[3];
-		int[] max = new int[3];
-		int leafFace;
-		int numLeafFaces;
-		int leafBrush;
-		int numLeafBrushes;
+        int cluster;
+        int area;
+        int[] min = new int[3];
+        int[] max = new int[3];
+        int leafFace;
+        int numLeafFaces;
+        int leafBrush;
+        int numLeafBrushes;
 
         internal void Load(BinaryReader reader)
         {

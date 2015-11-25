@@ -5,26 +5,26 @@ A reasonably performant Quake 3 BSP loader in C#.
 ## Usage
 
 ```c#
-var bsp = new Bsp("test.bsp");
+var bsp = new Bsp("../Maps/Test.bsp");
 ```
 
 ## Example Output
 
 ```
-Loaded test.bsp in 89.9873ms
-  * 37 textures
-  * 5600 planes
-  * 4214 nodes
-  * 4228 leaves
-  * 12186 leaf faces
-  * 7684 leaf brushes
-  * 13 models
-  * 1900 brushes
-  * 13483 brush sides
-  * 32892 vertices
-  * 68307 mesh vertices
-  * 1 effects
-  * 5969 faces
+Loaded ../Maps/Test.bsp in 76.2081ms
+ * 69 textures
+ * 5270 planes
+ * 5807 nodes
+ * 5816 leaves
+ * 19601 leaf faces
+ * 17881 leaf brushes
+ * 8 models
+ * 2599 brushes
+ * 16769 brush sides
+ * 29984 vertices
+ * 24516 mesh vertices
+ * 1 effects
+ * 4206 faces
 ```
 
 ## License

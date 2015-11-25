@@ -4,8 +4,8 @@ namespace Bsp
 {
     public class DirectoryEntry
     {
-		int offset;
-		int length;
+        int offset;
+        int length;
 
         #region Properties
         public int Offset

@@ -4,8 +4,8 @@ namespace Bsp
 {
     public class Header
     {
-		int magic;
-		int version;
+        int magic;
+        int version;
         DirectoryEntry[] _directoryEntries;
 
         public DirectoryEntry[] DirectoryEntries

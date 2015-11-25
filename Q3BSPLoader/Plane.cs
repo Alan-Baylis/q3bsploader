@@ -4,8 +4,8 @@ namespace Bsp
 {
     public class Plane
     {
-		float[] normal = new float[3];
-		float distance;
+        float[] normal = new float[3];
+        float distance;
 
         public Plane(BinaryReader reader)
         {

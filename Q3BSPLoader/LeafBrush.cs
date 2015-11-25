@@ -4,7 +4,7 @@ namespace Bsp
 {
     public class LeafBrush
     {
-		int brush;
+        int brush;
 
         public LeafBrush(BinaryReader reader)
         {

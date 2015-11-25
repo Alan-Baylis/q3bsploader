@@ -4,10 +4,10 @@ namespace Bsp
 {
     public class Vertex
     {
-		float[] position = new float[3];
-		float[,] textureCoordinates = new float[2, 2];
-		float[] normal = new float[3];
-		byte[] color = new byte[4];
+        float[] position = new float[3];
+        float[,] textureCoordinates = new float[2, 2];
+        float[] normal = new float[3];
+        byte[] color = new byte[4];
 
         public Vertex(BinaryReader reader)
         {

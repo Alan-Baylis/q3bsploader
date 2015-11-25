@@ -4,8 +4,8 @@ namespace Bsp
 {
     public class BrushSide
     {
-		int plane;
-		int texture;
+        int plane;
+        int texture;
 
         public BrushSide(BinaryReader reader)
         {

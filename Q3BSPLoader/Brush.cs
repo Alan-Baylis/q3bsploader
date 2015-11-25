@@ -4,9 +4,9 @@ namespace Bsp
 {
     public class Brush
     {
-		int brushSide;
-		int numBrushSides;
-		int texture;
+        int brushSide;
+        int numBrushSides;
+        int texture;
 
         public Brush(BinaryReader reader)
         {

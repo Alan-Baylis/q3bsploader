@@ -4,9 +4,9 @@ namespace Bsp
 {
     public class Texture
     {
-		string name;
-		int flags;
-		int contents;
+        string name;
+        int flags;
+        int contents;
 
         public Texture(BinaryReader reader)
         {

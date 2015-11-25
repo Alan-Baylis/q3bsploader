@@ -4,7 +4,7 @@ namespace Bsp
 {
     public class MeshVertex
     {
-		int offset;
+        int offset;
 
         public MeshVertex(BinaryReader reader)
         {

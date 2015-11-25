@@ -4,7 +4,7 @@ namespace Bsp
 {
     public class LeafFace
     {
-		int face;
+        int face;
 
         internal void Load(BinaryReader reader)
         {

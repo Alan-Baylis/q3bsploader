@@ -2,8 +2,8 @@ namespace Bsp
 {
     public class VisData
     {
-		int numVectors;
-		int vectorSize;
-		byte[] vectors;
+        int numVectors;
+        int vectorSize;
+        byte[] vectors;
     }
 }

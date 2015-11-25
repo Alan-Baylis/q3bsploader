@@ -4,20 +4,20 @@ namespace Bsp
 {
     public class Face
     {
-		int texture;
-		int effect;
-		int type;
-		int vertex;
-		int numVertices;
-		int meshVertex;
-		int numMeshVertices;
-		int lightmapIndex;
-		int[] lightmapStart = new int[2];
+        int texture;
+        int effect;
+        int type;
+        int vertex;
+        int numVertices;
+        int meshVertex;
+        int numMeshVertices;
+        int lightmapIndex;
+        int[] lightmapStart = new int[2];
         int[] lightmapSize = new int[2];
         float[] lightmapOrigin = new float[3];
         float[,] lightmapVectors = new float[2, 3];
-		float[] normal = new float[3];
-		int[] size = new int[2];
+        float[] normal = new float[3];
+        int[] size = new int[2];
 
         public Face(BinaryReader reader)
         {
